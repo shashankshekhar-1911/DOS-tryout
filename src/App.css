@@ -1,0 +1,56 @@
+/* DOS - Delivery Orchestration System */
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Table responsiveness */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #4338ca;
+  outline-offset: 2px;
+}
+
+/* Smooth transitions for specific elements */
+a {
+  transition: color 0.15s ease;
+}
+
+button {
+  transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Pipeline horizontal scroll hint */
+.pipeline-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 transparent;
+}
+
+/* Animate pulse for running status */
+@keyframes status-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.status-running-dot {
+  animation: status-pulse 2s ease-in-out infinite;
+}

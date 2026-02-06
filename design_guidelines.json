@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "name": "E1",
+    "persona": "Anti-AI Designer",
+    "principles": [
+      "Fusion over Imitation",
+      "Emotion First",
+      "Content is king",
+      "Zoom in",
+      "Negative Space",
+      "Contrast"
+    ]
+  },
+  "typography": {
+    "headings": {
+      "family": "Manrope",
+      "weights": [600, 700, 800],
+      "usage": "Page titles, Card headers, Metric values"
+    },
+    "body": {
+      "family": "Inter",
+      "weights": [400, 500],
+      "usage": "Table data, Labels, Paragraphs"
+    }
+  },
+  "colors": {
+    "theme": "light",
+    "palette": {
+      "primary": {
+        "main": "#4338ca",
+        "hover": "#3730a3",
+        "description": "Deep Indigo for primary actions and brand identity"
+      },
+      "secondary": {
+        "main": "#f8fafc",
+        "text": "#64748b",
+        "description": "Slate 50 for backgrounds, Slate 500 for secondary text"
+      },
+      "status": {
+        "success": {
+          "bg": "#ecfdf5",
+          "text": "#047857",
+          "border": "#a7f3d0"
+        },
+        "processing": {
+          "bg": "#eff6ff",
+          "text": "#1d4ed8",
+          "border": "#bfdbfe"
+        },
+        "warning": {
+          "bg": "#fffbeb",
+          "text": "#b45309",
+          "border": "#fde68a"
+        },
+        "error": {
+          "bg": "#fef2f2",
+          "text": "#be123c",
+          "border": "#fecaca"
+        },
+        "neutral": {
+          "bg": "#f1f5f9",
+          "text": "#475569",
+          "border": "#e2e8f0"
+        }
+      },
+      "backgrounds": {
+        "page": "#ffffff",
+        "card": "#ffffff",
+        "subtle": "#f8fafc"
+      }
+    }
+  },
+  "layout": {
+    "dashboard_grid": "grid grid-cols-1 md:grid-cols-4 gap-6",
+    "spacing": {
+      "page_padding": "p-8",
+      "card_padding": "p-6",
+      "section_gap": "gap-8"
+    }
+  },
+  "components": {
+    "cards": "bg-white border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition-all duration-200",
+    "buttons": {
+      "primary": "bg-indigo-700 hover:bg-indigo-800 text-white shadow-sm rounded-lg px-4 py-2 font-medium transition-colors",
+      "secondary": "bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 shadow-sm rounded-lg px-4 py-2 font-medium transition-colors",
+      "ghost": "text-slate-600 hover:bg-slate-100 rounded-lg px-3 py-1.5 transition-colors"
+    },
+    "badges": "inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ring-1 ring-inset",
+    "tables": {
+      "wrapper": "w-full overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm",
+      "header": "bg-slate-50/50 text-slate-500 text-xs font-semibold uppercase tracking-wider border-b border-slate-100",
+      "row": "hover:bg-slate-50/50 transition-colors border-b border-slate-50 last:border-0"
+    }
+  },
+  "assets": {
+    "images": {
+      "satellite_thumbnails": [
+        "https://images.unsplash.com/photo-1574169208383-fb087432973a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxzYXRlbGxpdGUlMjBtYXAlMjBlYXJ0aCUyMHZpZXd8ZW58MHx8fHwxNzcwNDE2NTM2fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1574786199452-c7a5f69fb6e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxzYXRlbGxpdGUlMjBtYXAlMjBlYXJ0aCUyMHZpZXd8ZW58MHx8fHwxNzcwNDE2NTM2fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1574786198875-49f5d09fe2d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxzYXRlbGxpdGUlMjBtYXAlMjBlYXJ0aCUyMHZpZXd8ZW58MHx8fHwxNzcwNDE2NTM2fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "logos": [
+        "https://images.unsplash.com/photo-1652156752342-c786f1e1d1ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHw0fHx0ZWNoJTIwY29tcGFueSUyMGxvZ28lMjBtaW5pbWFsfGVufDB8fHx8MTc3MDQxNjUzN3ww&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1770012977129-19f856a1f935?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwzfHx0ZWNoJTIwY29tcGFueSUyMGxvZ28lMjBtaW5pbWFsfGVufDB8fHx8MTc3MDQxNjUzN3ww&ixlib=rb-4.1.0&q=85"
+      ],
+      "avatars": [
+        "https://images.unsplash.com/photo-1758518727592-706e80ebc354?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGJ1c2luZXNzfGVufDB8fHx8MTc3MDQxNjUzN3ww&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGJ1c2luZXNzfGVufDB8fHx8MTc3MDQxNjUzN3ww&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1629507208649-70919ca33793?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGJ1c2luZXNzfGVufDB8fHx8MTc3MDQxNjUzN3ww&ixlib=rb-4.1.0&q=85"
+      ]
+    },
+    "icons": "Use Lucide-React for all icons"
+  },
+  "page_specifics": {
+    "dashboard": {
+      "path": "/",
+      "instructions": "Create a unified dashboard. Top section: 4 stats cards (Total Active, On Track, Delayed, Completed). Middle: Search + Filters (Customer, Stage, Status). Bottom: 'Delivery Phases' table using the custom table component style. Use Status Badges for stage/status columns."
+    },
+    "customer": {
+      "path": "/customer/:id",
+      "instructions": "Customer 360 view. Left column (1/3): Customer Profile Card (Logo, Name, Industry, ARR, Contract Dates). Right column (2/3): Tabs for 'Running Deliveries' and 'Past Deliveries'. Use Card components for Running Deliveries list."
+    },
+    "delivery": {
+      "path": "/delivery/:id",
+      "instructions": "Sequential Flowchart View. Top: Header with ID and Status. Middle: A horizontal 'Pipeline' visualization showing 8 stages: [Data Intake, QC, Pre-processing, Span Labeling, Veg Mgmt, Audit, Delivery, Sign-off]. Highlight the current stage (e.g., Span Labeling). Bottom: Details of the current stage."
+    },
+    "workflow": {
+      "path": "/delivery/:id/stage/:stageId",
+      "instructions": "Focus on 'Span Labeling' stage. Left: Task description and requirements. Right: 3-step vertical stepper workflow: 1. Share Requirement (Action), 2. Accept Labelling (Action), 3. Submit Shapefile (Upload). Bottom: Audit Log Timeline showing history of actions."
+    }
+  },
+  "universal_guidelines": [
+    "Use 'sonner' for all toast notifications.",
+    "Ensure all interactive elements have data-testid attributes.",
+    "Do not use gradients for backgrounds, stick to clean white/slate.",
+    "Use ample whitespace (p-6, p-8) inside cards.",
+    "Mock data should be realistic utility company names (e.g., 'Pacific Power', 'Midwest Grid')."
+  ]
+}
