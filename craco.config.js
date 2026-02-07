@@ -1,6 +1,12 @@
 // craco.config.js
 const path = require("path");
-require("dotenv").config();
+// Safely load dotenv if available (for local development)
+// Vercel provides environment variables automatically during build
+try {
+  require("dotenv").config();
+} catch (e) {
+  // dotenv not available or .env file doesn't exist - this is fine for production builds
+}
 
 // Check if we're in development/preview mode (not production build)
 // Craco sets NODE_ENV=development for start, NODE_ENV=production for build
