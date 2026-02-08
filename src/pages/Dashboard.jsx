@@ -219,15 +219,15 @@ export default function Dashboard() {
           </Select>
         </div>
 
-        {/* Running Delivery Phases Table */}
+        {/* Running Deliveries Table */}
         <div data-testid="running-phases-section">
-          <h2 className="text-base font-semibold text-slate-800 mb-4" style={{ fontFamily: 'Manrope, sans-serif' }}>Running Delivery Phases</h2>
+          <h2 className="text-base font-semibold text-slate-800 mb-4" style={{ fontFamily: 'Manrope, sans-serif' }}>Running Deliveries</h2>
           <div className="w-full overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
             <div className="overflow-x-auto">
               <Table>
                 <TableHeader>
                   <TableRow className="bg-slate-50/80 border-b border-slate-100">
-                    <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap"><SortHeader field="id">Phase ID</SortHeader></TableHead>
+                    <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap"><SortHeader field="id">Delivery ID</SortHeader></TableHead>
                     <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap"><SortHeader field="customerName">Customer</SortHeader></TableHead>
                     <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap">Year</TableHead>
                     <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap">Phase</TableHead>
@@ -273,7 +273,7 @@ export default function Dashboard() {
                 <Table>
                   <TableHeader>
                     <TableRow className="bg-slate-50/80 border-b border-slate-100">
-                      <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap">Phase ID</TableHead>
+                      <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap">Delivery ID</TableHead>
                       <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap">Customer</TableHead>
                       <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap">Year</TableHead>
                       <TableHead className="text-slate-500 text-xs font-semibold uppercase tracking-wider whitespace-nowrap">Phase</TableHead>
