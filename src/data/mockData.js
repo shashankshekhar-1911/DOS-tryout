@@ -314,6 +314,60 @@ export const AUDIT_LOGS = {
   ],
 };
 
+export const FEEDERS = {
+  'DP-2025-001': [
+    { id: 'FDR-001', name: 'West Corridor Main', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'running' },
+    { id: 'FDR-002', name: 'Hillcrest Lateral 12', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'running' },
+    { id: 'FDR-003', name: 'Oak Valley Trunk', region: 'West', priority: 'HIGH', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-004', name: 'River Bend Express', region: 'West', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-005', name: 'Sunset Ridge Loop', region: 'West', priority: 'HIGH', currentStage: 'Share Requirement', currentStageId: 1, lastCompletedStep: '-', lastCompletedStepId: 0, status: 'upcoming' },
+    { id: 'FDR-006', name: 'Pine Heights Spur', region: 'West', priority: 'LOW', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'running' },
+    { id: 'FDR-007', name: 'Central Grid Alpha', region: 'Central', priority: 'HIGH', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-008', name: 'Lakewood Feeder 3', region: 'West', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'delayed' },
+    { id: 'FDR-009', name: 'North Bay Connector', region: 'North', priority: 'HIGH', currentStage: 'Share Requirement', currentStageId: 1, lastCompletedStep: '-', lastCompletedStepId: 0, status: 'upcoming' },
+    { id: 'FDR-010', name: 'Eastview Distribution', region: 'East', priority: 'MEDIUM', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'running' },
+    { id: 'FDR-011', name: 'Sierra Madre Link', region: 'West', priority: 'HIGH', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-012', name: 'Copper Creek Line', region: 'West', priority: 'LOW', currentStage: 'Share Requirement', currentStageId: 1, lastCompletedStep: '-', lastCompletedStepId: 0, status: 'upcoming' },
+    { id: 'FDR-013', name: 'Bayshore Industrial', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-014', name: 'Ridgeline Express', region: 'North', priority: 'MEDIUM', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-015', name: 'Greenfield West', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-016', name: 'Harbor Point Lateral', region: 'South', priority: 'HIGH', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-017', name: 'Mountain View Trunk', region: 'West', priority: 'MEDIUM', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-018', name: 'Clearwater Branch', region: 'East', priority: 'LOW', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-019', name: 'Willow Creek Spur', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-020', name: 'Redwood Heights', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-021', name: 'Mesa Grande Loop', region: 'South', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-022', name: 'Bluff City Connector', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-023', name: 'Spring Valley Line', region: 'Central', priority: 'LOW', currentStage: 'Share Requirement', currentStageId: 1, lastCompletedStep: '-', lastCompletedStepId: 0, status: 'upcoming' },
+    { id: 'FDR-024', name: 'Falcon Ridge Feeder', region: 'North', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-025', name: 'Aspen Grove Main', region: 'West', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-026', name: 'Coyote Pass Line', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-027', name: 'Silver Lake Branch', region: 'East', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-028', name: 'Diamond Bar Spur', region: 'South', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-029', name: 'Timber Ridge Trunk', region: 'West', priority: 'LOW', currentStage: 'Share Requirement', currentStageId: 1, lastCompletedStep: '-', lastCompletedStepId: 0, status: 'upcoming' },
+    { id: 'FDR-030', name: 'Canyon View Express', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-031', name: 'Windmill Flats Loop', region: 'Central', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-032', name: 'Eagle Rock Feeder', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-033', name: 'Prairie Junction', region: 'Central', priority: 'HIGH', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-034', name: 'Coastal Bend Line', region: 'South', priority: 'MEDIUM', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-035', name: 'Shadow Creek Spur', region: 'West', priority: 'LOW', currentStage: 'Share Requirement', currentStageId: 1, lastCompletedStep: '-', lastCompletedStepId: 0, status: 'upcoming' },
+    { id: 'FDR-036', name: 'Blue Mesa Trunk', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-037', name: 'Iron Bridge Lateral', region: 'North', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-038', name: 'Sunflower Heights', region: 'East', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-039', name: 'Stonewall Express', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'running' },
+    { id: 'FDR-040', name: 'Riverbend South', region: 'South', priority: 'LOW', currentStage: 'Share Requirement', currentStageId: 1, lastCompletedStep: '-', lastCompletedStepId: 0, status: 'upcoming' },
+    { id: 'FDR-041', name: 'Golden Gate Branch', region: 'West', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-042', name: 'Thunder Valley Line', region: 'Central', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'running' },
+    { id: 'FDR-043', name: 'Cedar Point Feeder', region: 'North', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+    { id: 'FDR-044', name: 'Maple Grove Spur', region: 'West', priority: 'MEDIUM', currentStage: 'Accept Labelling Work', currentStageId: 2, lastCompletedStep: 'Share Requirement', lastCompletedStepId: 1, status: 'delayed' },
+    { id: 'FDR-045', name: 'Desert View Trunk', region: 'South', priority: 'HIGH', currentStage: 'Submit Labelled Shapefile', currentStageId: 3, lastCompletedStep: 'Accept Labelling Work', lastCompletedStepId: 2, status: 'completed' },
+  ],
+};
+
+export function getFeedersForDelivery(deliveryPhaseId) {
+  return FEEDERS[deliveryPhaseId] || [];
+}
+
 export function getRunningPhases() {
   return DELIVERY_PHASES.filter(p => p.status !== 'completed');
 }
